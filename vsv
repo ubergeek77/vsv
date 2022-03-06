@@ -8,7 +8,7 @@
 
 VSV_VERSION='v1.3.4'
 
-export SVDIR=${SVDIR:-/var/service}
+export SVDIR=${SVDIR:-/run/runit/service}
 
 charup='✔'
 chardown='X'
