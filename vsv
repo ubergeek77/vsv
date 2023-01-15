@@ -6,7 +6,7 @@
 # Date: August 29, 2018
 # License: MIT
 
-VSV_VERSION='v1.3.4'
+VSV_VERSION='v1.3.5'
 
 export SVDIR=${SVDIR:-/run/runit/service}
 
@@ -15,7 +15,7 @@ chardown='X'
 charunknown='?'
 progname=${0##*/}
 num_re='^-?[0-9]+$'
-svc_re='^[a-zA-Z0-9_\.-]+$'
+svc_re='^[a-zA-Z0-9_@\.-]+$'
 
 shopt -s nullglob
 
